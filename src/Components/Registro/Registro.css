@@ -1,0 +1,69 @@
+.registro {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.img_registro {
+    width: 100%;
+    height: 100vh;
+}
+
+.register_form {
+    background-color: #329F05;
+}
+
+.form_registro_ {
+    width: 70%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.center_form_register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%; */
+}
+
+.part_1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.part_2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 320px;
+}
+
+.registras_button input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.link_inicio {
+    color: #ffffff;
+}
+
+.title_merCampesino_regsiter {
+    margin-left: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    color: white;
+    width: 20px;
+}
