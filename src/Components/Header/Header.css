@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #329F05;
+    height: 150px;
+}
+
+.title_merCampesino {
+    display: flex;
+    color: white;
+    /* margin-left: 0px 5px; */
+}
+
+.title_header {
+    border-left: 3px solid white;
+    background-color: aqua;
+    /* margin: 0px 5px; */
+}
+
+.img_header {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+.imgHeader_navbar {
+    display: flex;
+}
+
+.img_bell,
+.img_cart {
+    width: 40px;
+}
+
+.navbar {
+    color: white;
+}
