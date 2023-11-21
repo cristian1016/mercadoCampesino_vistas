@@ -10,8 +10,10 @@ export default function Header() {
                 <div className='title_merCampesino'>
                     <img src="/logo_campesino.png" alt="" />
                     <div className='title_header'>
-                        <h1>MERCADO CAMPESINO</h1>
-                        <h3>LA MEJOR CALIDAD</h3>
+                        <div className='title'>
+                            <h1>MERCADO CAMPESINO</h1>
+                            <h3>LA MEJOR CALIDAD</h3>
+                        </div>
                     </div>
                 </div>
 

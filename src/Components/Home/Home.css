@@ -1,0 +1,100 @@
+.folder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+}
+
+.img {
+    border-radius: 50%;
+    border: 10px solid #329F05;
+    width: 200px;
+}
+
+ h2 {
+    color: #329F05;
+}
+.center_mercados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_recomendados {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.frase_recomendados {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.recommended_markets {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+    width: 80%;
+}
+
+.mercados_recomendados {
+    text-align: center;
+}
+
+.featured_products {
+    background-color: #329F05;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.serch_products h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.serch_products {
+    height: 250px;
+}
+
+.serch_products p {
+    margin-top: 0;
+    color: rgb(226, 219, 219);
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.serch_ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.busquedaProductos {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.buscar {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+    color: #329F05;
+}
+
+.buscar:hover {
+    /* color: rgb(77, 255, 0); */
+    background-color: #a0ec8d;
+}
