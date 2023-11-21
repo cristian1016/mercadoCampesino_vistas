@@ -62,7 +62,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                {/* <hr /> */}
+                <hr />
 
                 <div className='featured_products'>
                     <div className='serch_products'>
@@ -77,9 +77,14 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div>
+                <hr />
+
+                <div className='center_products_'>
                     <h2>Descuentos especialmente para tí</h2>
-                    <Products />
+
+                    <div className='products_'>
+                        <Products />
+                    </div>
                 </div>
             </section>
             <Footer />

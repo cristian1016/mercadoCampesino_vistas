@@ -7,10 +7,11 @@ function Products() {
     return (
         <>
             {products.map((product) => (
-                <div key={product.id}>
-                    <img src={product.image} alt="" />
-                    <p>{product.name}</p>
-                    <p>{product.price}</p>
+                <div className='card_product' key={product.id}>
+                    <img className='image' src={product.image} alt="" />
+                    <p className='name_product'>{product.name}</p>
+                    <p className='price_product'>{product.price}</p>
+                    <input className='buy' type="submit" value="Comprar"></input>
                 </div>
             ))}
         </>

@@ -1,0 +1,31 @@
+.image {
+    width: 190px;
+    height: 160px;
+    margin-top: 10px;
+}
+
+.card_product {
+    border: 2px solid #329F05;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buy {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #329F05;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.name_product {
+    font-size: 18px;
+    border-bottom: 2px solid #329F05;
+    width: 100px;
+    text-align: center;
+}
