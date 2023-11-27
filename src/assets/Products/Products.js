@@ -39,7 +39,7 @@ const products = [
         image: "https://i.pinimg.com/236x/5e/c6/15/5ec615b523633629aebf6f0dac12711a.jpg",
         name: "Aguacate",
         price: 7000,
-        stock: 13,
+        stock: 10,
     },
     {
         id: 7,
@@ -53,7 +53,7 @@ const products = [
         image: "https://i.pinimg.com/236x/f2/55/f0/f255f00548c8cfe40227f0609500d712.jpg",
         name: "Guayaba",
         price: 3000,
-        stock: 13,
+        stock: 20,
     },
     {
         id: 9,
@@ -81,21 +81,21 @@ const products = [
         image: "https://i.pinimg.com/236x/6d/0c/4c/6d0c4c4e9f81f60f6aa336acc6cb4187.jpg",
         name: "Manzana",
         price: 11000,
-        stock: 13,
+        stock: 8,
     },
     {
         id: 13,
         image: "https://i.pinimg.com/236x/fe/a0/fe/fea0fe4ecd42e1adca857f16b1187889.jpg",
         name: "Platano",
         price: 10000,
-        stock: 13,
+        stock: 17,
     },
     {
         id: 14,
         image: "https://i.pinimg.com/236x/47/20/dd/4720ddc8b21b7c05f92fe8f80566ed08.jpg",
         name: "Papa",
         price: 10000,
-        stock: 13,
+        stock: 15,
     },
     {
         id: 15,
@@ -109,7 +109,7 @@ const products = [
         image: "https://i.pinimg.com/236x/70/e8/8a/70e88a9cad6eabf4e53ac77fac812008.jpg",
         name: "Limon",
         price: 4000,
-        stock: 13,
+        stock: 11,
     },
 
 ];

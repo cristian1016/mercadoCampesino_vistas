@@ -47,7 +47,12 @@ h1 {
 .img_cart {
     width: 40px;
 }
-
+    
 .navbar {
     color: white;
+}
+
+.image_perfil {
+    width: 40px;
+    border-radius: 50%;
 }
