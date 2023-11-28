@@ -1,11 +1,12 @@
-.image {
+.images {
     width: 190px;
     height: 160px;
     margin-top: 10px;
 }
 
-.card_product {
-    border: 2px solid #329F05;
+.card_products {
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -14,7 +15,7 @@
     justify-content: space-between;
 }
 
-.buy {
+.buys {
     padding: 10px;
     border-radius: 5px;
     border: none;
@@ -23,9 +24,19 @@
     margin-bottom: 10px;
 }
 
-.name_product {
+.name_products {
     font-size: 18px;
     border-bottom: 2px solid #329F05;
     width: 100px;
     text-align: center;
+}
+
+.producColor {
+    background-color: #329F05;
+}
+
+.price_products {
+    text-decoration: line-through;
+    color: rgb(211, 21, 21);
+    
 }

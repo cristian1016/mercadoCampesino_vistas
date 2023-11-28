@@ -5,13 +5,14 @@
 .navbar a {
     margin-right: 20px;
     text-decoration: none;
-    color: rgb(202, 201, 201);
+    color: #fff;
 }
 
 .navbar li {
     list-style: none;
+    
 }
 
 a:hover {
-    color: rgb(34, 138, 170);
+    color: rgb(227, 227, 227);
 }

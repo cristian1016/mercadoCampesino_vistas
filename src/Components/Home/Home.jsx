@@ -3,6 +3,7 @@ import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import Products from '../Products/Products'
 import './Home.css'
+import ProductosDescuentos from '../Products/ProductosDescuentos'
 
 
 export default function Home() {
@@ -77,11 +78,15 @@ export default function Home() {
                     </div>
                 </div>
 
-                <hr />
+                <div className='center_productsDiscount producColor'>
+                        <h2>Descuentos especialmente para tí</h2>
+                    <div className='products_discount'>
+                        <ProductosDescuentos />
+                    </div>
+                </div>
+
 
                 <div className='center_products_'>
-                    <h2>Descuentos especialmente para tí</h2>
-
                     <div className='products_'>
                         <Products />
                     </div>

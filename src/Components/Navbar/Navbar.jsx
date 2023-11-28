@@ -10,8 +10,8 @@ export const Navbar = () => {
     <div>
       <ul className='navbar'>
         {/* <li><NavLink to='/'>Home</NavLink></li> */}
-        <li><NavLink to='/Login'>Iniciar sesión</NavLink></li>
-        <li><NavLink to='/Registrarse'>Registrarse</NavLink></li>
+        <li className='iniciarSesion'><NavLink to='/Login'>Iniciar sesión</NavLink></li>
+        <li className='registro'><NavLink to='/Registrarse'>Registrarse</NavLink></li>
         <li><NavLink to='/PerfilUsuario'><img className='image_perfil' src={img_perfil} alt="" /></NavLink></li>
       </ul>
     </div>

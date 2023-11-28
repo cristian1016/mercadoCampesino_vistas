@@ -4,6 +4,7 @@ const products = [
         image: "https://i.pinimg.com/236x/cb/ea/96/cbea96674cad2dbc27f4465f105d3b95.jpg",
         name: "Lechuga",
         price: 5000,
+        priceDiscount: 4000,
         stock: 13,
     },
     {
@@ -11,6 +12,7 @@ const products = [
         image: "https://i.pinimg.com/236x/ea/4a/33/ea4a33eab6842d6fe479393052494c5a.jpg",
         name: "Zanahoria",
         price: 2500,
+        priceDiscount: 2000,
         stock: 13,
     },
     {
@@ -18,6 +20,7 @@ const products = [
         image: "https://i.pinimg.com/236x/79/1e/f5/791ef50e6d6e46214e25a6c9b5bffb96.jpg",
         name: "Cebolla",
         price: 3200,
+        priceDiscount: 2500,
         stock: 13,
     },
     {
@@ -25,6 +28,7 @@ const products = [
         image: "https://i.pinimg.com/236x/26/ce/34/26ce340af8b2265815a2c27f3e13185b.jpg",
         name: "Mango",
         price: 10000,
+        priceDiscount: 8200,
         stock: 13,
     },    
     {

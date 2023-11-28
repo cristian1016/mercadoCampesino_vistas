@@ -1,3 +1,7 @@
+* {
+    font-weight: 600;
+}
+
 hr {
     border: 4px solid #329F05;
 }
@@ -113,9 +117,26 @@ hr {
     flex-direction: column;
 }
 
-.center_products_ h2 {
+.center_productsDiscount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center_productsDiscount h2 {
     margin-top: 50px;
     font-size: 40px;
+    color: #ffffff;
+}
+
+.products_discount {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+    width: 70%;
+    padding-bottom: 90px;
 }
 
 .products_ {
