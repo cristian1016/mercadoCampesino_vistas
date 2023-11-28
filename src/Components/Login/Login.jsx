@@ -5,7 +5,7 @@ export default function Login() {
     return (
         <>
             <section className='login'>
-                <div>
+                <div className='div_img_login'>
                     <img className='imagen_login' src="/imagen_login.png" alt="" />
                 </div>
 
@@ -34,25 +34,23 @@ export default function Login() {
 
                                         <div class="digitar">
                                             <label>Correo</label><br />
-                                            <input type="text" name="correo" required></input>
+                                            <input type="text" name="correo" placeholder='Ingresa tu correo' required ></input>
                                         </div>
 
                                         <div class="digitar">
                                             <label>Contraseña</label> <br />
-                                            <input type="password" name="contrasenia" required></input>
+                                            <input type="password" name="contrasenia" placeholder='Ingresa tu contraseña' required ></input>
 
                                         </div>
 
+                                        <div className='start_olvidarContra'>
+                                            <a className="link_olvidarContra" href="">¿Olvide mi contraseña? </a>
+                                        <p className="link_registro">¿No te has registrado? <a className="a_registro" href="/interfaz-Registro"> Registrarse</a></p>
+                                        </div>
                                     </div>
 
-                                    <div className="link_login">
-                                        <p class="comunity">¿No te has registrado? <a class="link" href="/interfaz-Registro"> Registrarse</a></p>
-                                        <a class="link" href="">¿Olvide mi contraseña? </a>
-                                    </div>
-
-
-                                    <div className="logear">
-                                        <input type="submit" value="INGRESAR" class="logear"></input>
+                                    <div className="loguear">
+                                        <button className='loguear_button'>Ingresar</button>
                                     </div>
                                 </div>
                             </form>

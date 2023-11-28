@@ -5,9 +5,14 @@
 
 .imagen_login {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 0;
     margin: 0;
+}
+
+.div_img_login {
+    padding: 0px;
+    margin: 0px;
 }
 
 .form_login {
@@ -31,13 +36,8 @@
 width: 100px;
 }
 
-
-
-
-
-
 .title_logo_merCampesino {
-    
+    /* height: 100vh; */
     background-color: #329F05;
     display: flex;
     flex-direction: column;
@@ -82,13 +82,13 @@ h1 {
     justify-content: center;
     flex-direction: column;
     justify-content: space-around;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     border-radius: 10px;
     padding: 20px;
 }
 
 .login_center {
-    height: 150px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,11 +104,42 @@ h1 {
 .digitar input {
     padding: 15px;
     width: 300px;
-    border-radius: 10px;
+    border-radius: 15px;
     border: 2px solid #329F05;
+    margin-top: 9px;
 }
 
-.link_login {
+.link_registro {
     color: white;
     text-align: center;
+}
+
+.loguear_button {
+    border-radius: 13px;
+    border: none;
+    padding: 8px 35px; 
+    color: #329F05;
+    font-size: 16px;
+}
+
+.link_olvidarContra,
+.link_registro {
+    color: #fff;
+    text-align: start;
+    display: flex;
+    /* justify-content: end; */
+}
+
+.a_registro {
+    color: #fff;
+}
+
+.a_registro:hover,
+.link_olvidarContra:hover {
+    color: rgb(215, 215, 215);
+}
+
+.start_olvidarContra {
+width: 100%;
+/* margin-top: -20px; */
 }

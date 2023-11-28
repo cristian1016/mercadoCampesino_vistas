@@ -1,5 +1,6 @@
 .navbar{
     display: flex;
+    align-items: center;
 }
 
 .navbar a {
@@ -10,9 +11,8 @@
 
 .navbar li {
     list-style: none;
-    
 }
 
-a:hover {
-    color: rgb(227, 227, 227);
-}
+/* a:hover {
+    color: rgb(181, 179, 179);
+} */
