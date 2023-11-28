@@ -1,3 +1,134 @@
-.img_portada {
+.cont-banner{
+    background-image: url(/public/img_portada_perfilUser.png);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
+    height: 250px;
 }
+
+.cont-user img{
+    border-radius: 100px ;
+    width: 200px;
+    height: 200px;
+    border: 6px solid #329F05;
+    background-size: cover;
+    /* position: relative;
+    top: -10px;
+    left: 20px; */
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    right: 40%;
+}
+
+.btn-edit button{
+  background-color: #329F05;
+  border: 1px solid #329F05;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 1px 3px 8px #888888;;
+  color: white;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.btn-edit button:hover{
+  background-color: #328f0a;
+}
+
+.cont-infoUser{
+  margin-top: 6%;
+  text-align: center;
+}
+
+.cont-infoUser p{
+  margin-top: -13px;  
+  font-weight:lighter;
+}
+
+.cont-compras{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-compras{
+  background-color: #329F05;
+  border: 1px solid #329F05;
+  font-size: 18px;
+  font-weight:300;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 1px 3px 8px #888888;;
+  color: white;
+}
+
+.btn-compras:hover{
+  background-color: #328f0a;
+}
+
+.cont-mercado{
+  display: flex;
+  align-items: center;
+}
+
+.cont-mercado img{
+  border: 7px solid #329F05;
+  border-radius: 50%;
+}
+
+.cont-infoMercado{
+  margin-left: 20px;
+  text-align: center;
+}
+
+.cont-infoMercado p{
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+
+.cont-infoMercado a{
+  background-color: #329F05;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+/* .cont-banner{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    background: #333944;
+  }
+
+  .img_portada{
+    width: 300px;
+    height: 300px;
+    background: #CCC;
+    overflow: hidden;
+    background-size: contain;
+  }
+
+  .img_portada img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .box img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  } */
