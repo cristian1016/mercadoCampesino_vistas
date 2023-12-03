@@ -27,49 +27,49 @@ export default function Registro() {
                                 <div className='part_1'>
                                     <div class="digitar">
                                         <label for="digitar">Nombre</label><br />
-                                        <input name="nombres" type="text" required></input>
+                                        <input name="nombres" type="text" placeholder='Ingresa tu nombre' required></input>
                                     </div>
 
                                     <div class="digitar">
                                         <label for="digitar">Apellidos</label><br />
-                                        <input name="apellidos" type="text" required></input>
+                                        <input name="apellidos" type="text" placeholder='Ingresa tus apellidos'  required></input>
                                     </div>
 
                                     <div class="digitar">
                                         <label for="digitar">Fecha de nacimiento</label><br />
-                                        <input name="fechaNAcimiento" type="text" required></input>
+                                        <input name="fechaNAcimiento" type="text" placeholder='Ingresa tu fecha de nacimiento' required></input>
                                     </div>
 
                                     <div class="digitar">
                                         <label for="digitar">Contraseña</label><br />
-                                        <input name="contraseña" type="password" required></input>
+                                        <input name="contraseña" type="password" placeholder='Ingresa tu contraseña' required></input>
                                     </div>
 
                                     <div class="digitar">
                                         <label for="digitar">Genero</label><br />
-                                        <input name="genero" type="text" required></input>
+                                        <input name="genero" type="text" placeholder='Ingresa tu genero' required></input>
                                     </div>
                                 </div>
 
                                 <div className='part_2'>
                                     <div class="digitar">
                                         <label>Telefono</label><br />
-                                        <input name="telefono" type="tel" required></input>
+                                        <input name="telefono" type="tel" placeholder='Ingresa tu telefono' required></input>
                                     </div>
 
                                     <div class="digitar">
                                         <label for="digitar">Email</label><br />
-                                        <input name="correo" type="email" required></input>
+                                        <input name="correo" type="email" placeholder='Ingresa tu correo' required></input>
                                     </div>
 
                                     <div class="digitar">
                                         <label for="digitar">Direccion</label><br />
-                                        <input name="Direccion" type="text" required></input>
+                                        <input name="Direccion" type="text" placeholder='Ingresa tu direccion' required></input>
                                     </div>
 
                                     <div class="digitar">
                                         <label for="digitar">Confrmar Contraseña</label><br />
-                                        <input name="Confitmar_contraseña" type="password" required></input>
+                                        <input name="Confitmar_contraseña" type="password" placeholder='Confirma tu contraseña' required></input>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ export default function Registro() {
 
 
                                 <div id="link_login">
-                                    <a class="link_iniciar" href="#">¿Ya tienes cuenta?</a>
+                                    <a class="link_iniciar" href="/login">¿Ya tienes cuenta?</a>
                                 </div>
 
                                 <div className="link_inicio">

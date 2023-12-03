@@ -1,19 +1,23 @@
+
+
 .login {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 100vh;
 }
 
 .imagen_login {
     width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
+    height: 100vh;
+    /* padding: 0;
+    margin: 0; */
+    object-fit: cover;
 }
 
-.div_img_login {
+/* .div_img_login {
     padding: 0px;
     margin: 0px;
-}
+} */
 
 .form_login {
     width: 100%;
@@ -37,7 +41,7 @@ width: 100px;
 }
 
 .title_logo_merCampesino {
-    /* height: 100vh; */
+    height: 100vh;
     background-color: #329F05;
     display: flex;
     flex-direction: column;
