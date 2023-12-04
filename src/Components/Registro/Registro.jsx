@@ -6,7 +6,8 @@ export default function Registro() {
         <>
             <section className='registro'>
                 <div className='register_form'>
-                    {/* <a href="">Regresar</a> */}
+
+                <a className='regresar_registro' href="/">Regresar</a>
 
                     <div className='title_merCampesino_regsiter'>
                         <img src="/logo_campesino.png" alt="" />
@@ -16,7 +17,6 @@ export default function Registro() {
                             <div className='title_login'>
                                 <h1>MERCADO CAMPESINO</h1>
                                 <h3>LA MEJOR CALIDAD</h3>
-
                             </div>
                         </div>
                     </div>
@@ -25,68 +25,68 @@ export default function Registro() {
                         <form className='form_registro_' action="/registro" method="post">
                             <div class="registro">
                                 <div className='part_1'>
-                                    <div class="digitar">
+                                    <div className="digitar">
                                         <label for="digitar">Nombre</label><br />
                                         <input name="nombres" type="text" placeholder='Ingresa tu nombre' required></input>
                                     </div>
 
-                                    <div class="digitar">
+                                    <div className="digitar">
                                         <label for="digitar">Apellidos</label><br />
                                         <input name="apellidos" type="text" placeholder='Ingresa tus apellidos'  required></input>
                                     </div>
 
-                                    <div class="digitar">
+                                    <div className="digitar">
                                         <label for="digitar">Fecha de nacimiento</label><br />
                                         <input name="fechaNAcimiento" type="text" placeholder='Ingresa tu fecha de nacimiento' required></input>
                                     </div>
 
-                                    <div class="digitar">
+                                    <div className="digitar">
                                         <label for="digitar">Contraseña</label><br />
                                         <input name="contraseña" type="password" placeholder='Ingresa tu contraseña' required></input>
                                     </div>
 
-                                    <div class="digitar">
+                                    <div className="digitar">
                                         <label for="digitar">Genero</label><br />
                                         <input name="genero" type="text" placeholder='Ingresa tu genero' required></input>
                                     </div>
                                 </div>
 
                                 <div className='part_2'>
-                                    <div class="digitar">
+                                    <div className="digitar">
                                         <label>Telefono</label><br />
                                         <input name="telefono" type="tel" placeholder='Ingresa tu telefono' required></input>
                                     </div>
 
-                                    <div class="digitar">
+                                    <div className="digitar">
                                         <label for="digitar">Email</label><br />
                                         <input name="correo" type="email" placeholder='Ingresa tu correo' required></input>
                                     </div>
 
-                                    <div class="digitar">
+                                    <div className="digitar">
                                         <label for="digitar">Direccion</label><br />
                                         <input name="Direccion" type="text" placeholder='Ingresa tu direccion' required></input>
                                     </div>
 
-                                    <div class="digitar">
+                                    <div className="digitar">
                                         <label for="digitar">Confrmar Contraseña</label><br />
                                         <input name="Confitmar_contraseña" type="password" placeholder='Confirma tu contraseña' required></input>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="buttom">
+                            <div className="buttom">
 
 
-                                <div id="link_login">
-                                    <a class="link_iniciar" href="/login">¿Ya tienes cuenta?</a>
+                                <div className="link_login">
+                                    <p>¿Ya tienes cuenta?<a className="link_iniciar" href="/login">Iniciar sesion</a></p>
                                 </div>
 
                                 <div className="link_inicio">
-                                    <p class="inicio">Volver a <a class="link" href="/">Inicio</a></p>
+                                    <p>Volver a <a className="link_inicio" href="/">Inicio</a></p>
                                 </div>
                             </div>
 
-                            <div id="input_registrar">
+                            <div className="input_registrar">
                                     <a
                                         className="registras_button" href="/interfaz-login">
                                         <input type="submit" value="Registrarse"></input>

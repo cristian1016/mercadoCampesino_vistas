@@ -10,7 +10,7 @@ function Products() {
                 <div className='card_product' key={product.id}>
                     <img className='image' src={product.image} alt="" />
                     <p className='name_product'>{product.name}</p>
-                    <p className='price_product'>${product.price}</p>
+                    <p className='price_product'>Precio: ${product.price}</p>
                     <input className='buy' type="submit" value="Comprar"></input>
                 </div>
             ))}

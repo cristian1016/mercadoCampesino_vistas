@@ -1,10 +1,26 @@
 footer {
-    height: 200px;
+    height: 400px;
     background-color: #329F05;
     color: white;
-    font-size: 50px;
+    margin-top: 70px;
+}
+
+.imgs {
+    width: 100px;
+}
+
+.above {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    justify-content: space-around;
+}
+
+.cont_about_us,
+.cont_email,
+.cont_phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
