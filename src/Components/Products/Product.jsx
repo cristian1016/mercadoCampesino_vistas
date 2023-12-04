@@ -1,6 +1,6 @@
 import React from 'react'
 import products from '../../assets/Products/Products'
-import './products.css'
+import './product.css'
 
 
 function Products() {
