@@ -1,9 +1,10 @@
 import React from 'react'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
-import Products from '../Products/Products'
+import Product from '../Product/Product'
+
 import './Home.css'
-import ProductosDescuentos from '../Products/ProductosDescuentos'
+import ProductosDescuentos from '../Product/ProductosDescuentos'
 
 
 export default function Home() {
@@ -88,7 +89,7 @@ export default function Home() {
 
                 <div className='center_products_'>
                     <div className='products_'>
-                        <Products />
+                        <Product />
                     </div>
                 </div>
             </section>
