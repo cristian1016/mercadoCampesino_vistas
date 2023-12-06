@@ -13,16 +13,17 @@ export default function Home() {
             <Header />
             <section className=''>
                 <div className='folder'>
-                    <img src="/home_Campesinos.png" alt="" />
+                    <img src="/home_Campesinos.png" alt="" width={700} height={400}/>
                 </div>
 
                 <div className='center_mercados'>
 
                     <h2 className='title_recomendados'>Mercados Recomendos</h2>
-                    <p className='frase_recomendados'>encuentra los mercados mas destacados, con productos de calidad</p>
+                    <p className='frase_recomendados'>Encuentra los mercados mas destacados, con productos de calidad.</p>
 
                     <div className='recommended_markets'>
                         <div className='mercados_recomendados'>
+                            <img className='hojasIzquierda' src="/HojasIzquierda.png" alt="" width={160} height={190}/>
                             <img className='img' src="/mercado_1.png" alt="" />
                             <h2>Finca soledad</h2>
                         </div>
@@ -58,6 +59,7 @@ export default function Home() {
                         </div>
 
                         <div className='mercados_recomendados'>
+                            <img className='hojasDerecha' src="/HojaDerecha.png" alt="" width={160} height={200}/>
                             <img className='img' src="/mercado_8.png" alt="#" />
                             <h2>Mercado corazon</h2>
                         </div>
