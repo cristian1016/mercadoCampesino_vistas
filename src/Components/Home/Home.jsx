@@ -4,6 +4,7 @@ import Footer from '../Footer/Footer'
 import Product from '../Product/Product.jsx'
 import './Home.css'
 import ProductosDescuentos from '../Product/ProductosDescuentos'
+import ProductList from '../ProductList/ProductList.jsx'
 
 
 export default function Home() {
@@ -67,7 +68,7 @@ export default function Home() {
                 </div>
 
                 <hr />
-
+{/* 
                 <div className='featured_products'>
                     <div className='serch_products'>
                         <h2>Productos destacados</h2>
@@ -79,7 +80,9 @@ export default function Home() {
                         </div>
 
                     </div>
-                </div>
+                </div> */}
+<ProductList></ProductList>
+
 
                 <div className='center_productsDiscount producColor'>
                         <h2>Descuentos especialmente para tí</h2>
