@@ -22,47 +22,48 @@ export default function Home() {
 
                     <div className='recommended_markets'>
                         <div className='mercados_recomendados'>
-                            <img className='hojasIzquierda' src="/HojasIzquierda.png" alt="" width={160} height={190}/>
-                            <img className='img' src="/mercado_1.png" alt="" />
-                            <h2>Finca soledad</h2>
+                            <img className='hojasIzquierda' src="/HojasIzquierda.png" alt="" width={160} height={180}/>
+                            <a href=""><img className='img' src="/mercado_1.png" alt="" />
+                            <h2>Finca soledad</h2></a>
                         </div>
 
                         <div className='mercados_recomendados'>
-                            <img className='img' src="/mercado_2.png" alt="#" />
-                            <h2>Mercado campestre</h2>
+                            <a href=""><img className='img' src="/mercado_2.png" alt="#" />
+                            <h2>Mercado campestre</h2></a>
                         </div>
 
                         <div className='mercados_recomendados'>
-                            <img className='img' src="/mercado_3.png" alt="#" />
-                            <h2>La soledad</h2>
+                            <a href=""><img className='img' src="/mercado_3.png" alt="#" />
+                            <h2>La soledad</h2></a>
                         </div>
 
                         <div className='mercados_recomendados'>
-                            <img className='img' src="/mercado_5.png" alt="#" />
-                            <h2>La abuela</h2>
+                            <a href=""><img className='img' src="/mercado_5.png" alt="#" />
+                            <h2>La abuela</h2></a>
                         </div>
 
                         <div className='mercados_recomendados'>
-                            <img className='img' src="/mercado_4.png" alt="#" />
-                            <h2>Granja familiar</h2>
+                            <a href=""><img className='img' src="/mercado_4.png" alt="#" />
+                            <h2>Granja familiar</h2></a>
                         </div>
 
                         <div className='mercados_recomendados'>
-                            <img className='img' src="/mercado_6.png" alt="#" />
-                            <h2>Mercado social</h2>
+                            <a href=""><img className='img' src="/mercado_6.png" alt="#" />
+                            <h2>Mercado social</h2></a>
                         </div>
 
                         <div className='mercados_recomendados'>
-                            <img className='img' src="/mercado_7.png" alt="#" />
-                            <h2>Mercado sol</h2>
+                            <a href=""><img className='img' src="/mercado_7.png" alt="#" />
+                            <h2>Mercado sol</h2></a>
                         </div>
 
                         <div className='mercados_recomendados'>
-                            <img className='hojasDerecha' src="/HojaDerecha.png" alt="" width={160} height={200}/>
-                            <img className='img' src="/mercado_8.png" alt="#" />
-                            <h2>Mercado corazon</h2>
+                            <img className='hojasDerecha' src="/HojaDerecha.png" alt="" width={160} height={180}/>
+                            <a href=""><img className='img' src="/mercado_8.png" alt="#" />
+                            <h2>Mercado corazon</h2></a>
                         </div>
                     </div>
+                        <button className='btn-verMas'>Ver más...</button>
                 </div>
 
                 <hr />
